@@ -3,6 +3,7 @@ import multer from 'multer';
 import multerConfig from './config/multer';
 
 import UsuarioController from './app/controllers/UsuarioController';
+import ArquivoController from './app/controllers/ArquivoController';
 import SessionController from './app/controllers/SessionController';
 import AvaliacaoController from './app/controllers/AvaliacaoController';
 import ComentarioController from './app/controllers/ComentarioController';
@@ -29,6 +30,6 @@ routes.post('/comentarios/:avaliacaoId', checkAvaliacao, ComentarioController.st
 
 routes.get('/compras', CompraController.index);
 
-routes.post('/files', upload.single('file'), FileController.store);
+routes.post('/files', upload.single('file'), ArquivoController.store);
 
 export default routes;

@@ -82,7 +82,7 @@ class UsuarioController {
 
 		await user.update(req.body);
 
-		const { id, nome, email, avatar, endereco, data_nascimento, login, telefone } = await Usuario.findByPk(req.userId, {
+		const { id, nome, avatar, endereco, data_nascimento, login, telefone } = await Usuario.findByPk(req.userId, {
 			include: [
 				{
 					model: Arquivo,
@@ -106,3 +106,5 @@ class UsuarioController {
 
 
 }
+
+export default new UsuarioController();

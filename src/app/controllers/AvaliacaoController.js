@@ -48,7 +48,6 @@ class AvaliacaoController {
 			usuario_id,
 			status,
 			compra_id,
-			hora_avaliacao: new Date()
 		});
 
 		/**
