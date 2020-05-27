@@ -6,10 +6,6 @@ class Avaliacao extends Model {
 		super.init(
 			{
 				status: Sequelize.BOOLEAN,
-				hora_avaliacao: {
-					type: Sequelize.DATE,
-					defaultValue: Sequelize.NOW
-				},
 				flag: Sequelize.STRING,
 			},
 			{

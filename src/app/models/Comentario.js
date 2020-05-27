@@ -6,10 +6,6 @@ class ComentarioAvaliacao extends Model {
 		super.init(
 			{
 				comentario: Sequelize.STRING,
-				hora_comentario: {
-					type: Sequelize.DATE,
-					defaultValue: Sequelize.NOW
-				},
 			},
 			{
 				sequelize,
