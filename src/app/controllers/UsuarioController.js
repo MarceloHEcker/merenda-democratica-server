@@ -61,7 +61,7 @@ class UsuarioController {
 		});
 
 		if (!(await schema.isValid(req.body))) {
-			return res.status(400).json({ error: 'Validation fails' });
+			return res.status(400).json({ error: 'Erro na validação' });
 		}
 
 		const { email, oldPassword } = req.body;
@@ -72,31 +72,35 @@ class UsuarioController {
 			const userExists = await Usuario.findOne({ where: { email } });
 
 			if (userExists) {
-				return res.status(400).json({ error: 'User already exists.' });
+				return res.status(400).json({ error: 'Usuário já existe' });
 			}
 		}
 
 		if (oldPassword && !(await user.checkPassword(oldPassword))) {
-			return res.status(401).json({ error: 'Password does not match' });
+			return res.status(401).json({ error: 'Senhas não coincidem' });
 		}
 
 		await user.update(req.body);
 
-		const { id, name, avatar } = await Usuario.findByPk(req.userId, {
+		const { id, nome, email, avatar, endereco, data_nascimento, login, telefone } = await Usuario.findByPk(req.userId, {
 			include: [
 				{
-					model: File,
+					model: Arquivo,
 					as: 'avatar',
-					attributes: ['id', 'path', 'url'],
+					attributes: ['id', 'caminho', 'url'],
 				},
 			],
 		});
 
 		return res.json({
 			id,
-			name,
+			nome,
 			email,
 			avatar,
+			endereco,
+			data_nascimento,
+			login,
+			telefone
 		});
 	}
 

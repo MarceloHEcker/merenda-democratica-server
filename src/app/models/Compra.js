@@ -5,10 +5,10 @@ class Compra extends Model {
 	static init(sequelize) {
 		super.init(
 			{
-				year: Sequelize.NUMBER,
+				ano: Sequelize.NUMBER,
 				uf: Sequelize.STRING(2),
-				city: Sequelize.STRING,
-				entity: Sequelize.STRING,
+				municipio: Sequelize.STRING,
+				entidade: Sequelize.STRING,
 				numero_dap: Sequelize.STRING,
 				organico: Sequelize.STRING(1),
 				produto: Sequelize.STRING,

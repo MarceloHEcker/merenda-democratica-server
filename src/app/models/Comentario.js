@@ -6,7 +6,10 @@ class ComentarioAvaliacao extends Model {
 		super.init(
 			{
 				comentario: Sequelize.STRING,
-				horaComentario: Sequelize.DATE,
+				hora_comentario: {
+					type: Sequelize.DATE,
+					defaultValue: Sequelize.NOW
+				},
 			},
 			{
 				sequelize,
@@ -17,10 +20,9 @@ class ComentarioAvaliacao extends Model {
 	}
 
 	static associate(models) {
-		this.belongsTo(models.Compra, { foreignKey: 'avaliacao_id', as: 'avaliacao' });
-		this.belongsTo(models.Usuario, { foreignKey: 'usuario_id', as: 'autor' });
+		this.belongsTo(models.Avaliacao, { foreignKey: 'avaliacao_id', as: 'avaliacao' });
 	}
 
 }
 
-export default Avaliacao;
+export default ComentarioAvaliacao;
