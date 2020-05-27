@@ -12,6 +12,13 @@ module.exports = {
       comentario: {
         type: Sequelize.STRING
       },
+      avaliacao_id: {
+        type: Sequelize.INTEGER,
+        references: { model: 'avaliacoes', key: 'id' },
+        onUpdate: 'CASCADE',
+        onDelete: 'SET NULL',
+        allowNull: true,
+      },
       created_at: {
         type: Sequelize.DATE,
         allowNull: false,

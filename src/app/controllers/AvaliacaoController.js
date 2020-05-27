@@ -4,14 +4,12 @@ import pt from 'date-fns/locale/pt';
 import Usuario from '../models/Usuario';
 import Compra from '../models/Compra';
 import Notificacao from '../schemas/Notificacao';
+import Avaliacao from '../models/Avaliacao';
 
 class AvaliacaoController {
 	async index(req, res) {
 
-		const avaliacoes = await Compra.findAll({
-			where: {
-				usuario_id: req.userId,
-			},
+		const avaliacoes = await Avaliacao.findAll({
 			include: [
 				{
 					model: Usuario,
@@ -24,7 +22,7 @@ class AvaliacaoController {
 					attributes: ['ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
 				}
 			],
-			order: ['date'],
+			order: ['created_at'],
 		});
 
 		return res.json(avaliacoes);
@@ -44,7 +42,7 @@ class AvaliacaoController {
 
 		const { compra_id, status, usuario_id } = req.body;
 
-		const avaliacao = await Appointment.create({
+		const avaliacao = await Avaliacao.create({
 			usuario_id,
 			status,
 			compra_id,
@@ -52,19 +50,23 @@ class AvaliacaoController {
 
 		/**
 		 * Notificando avaliação realizada
-		 */
+		 *
 		const order = await Compra.findByPk(compra_id);
-		const hourStart = startOfHour(parseISO(date));
+
+		const hourStart = startOfHour(new Date());
 		const formattedDate = format(
 			hourStart,
 			"'dia' dd 'de' MMMM', às' H:mm'h'",
 			{ locale: pt }
 		);
 
-		await Notificacao.create({
+		const result = await Notificacao.create({
 			content: `Nova avaliação de compra realizada! De ${order.produto} - ${order.municipio}/${order.uf} às ${formattedDate}`,
 			user: 1,
 		});
+
+		console.log('created_at 3', result);
+	*/
 
 		return res.json(avaliacao);
 

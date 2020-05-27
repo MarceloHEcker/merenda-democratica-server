@@ -9,6 +9,7 @@ class Avaliacao extends Model {
 				flag: Sequelize.STRING,
 			},
 			{
+				tableName: 'avaliacoes',
 				sequelize,
 			}
 		);
@@ -17,8 +18,8 @@ class Avaliacao extends Model {
 	}
 
 	static associate(models) {
-		this.belongsTo(models.Compra, { foreignKey: 'compra_id', as: 'compra' });
 		this.belongsTo(models.Usuario, { foreignKey: 'usuario_id', as: 'usuario' });
+		this.belongsTo(models.Compra, { foreignKey: 'compra_id', as: 'compra' });
 	}
 
 }

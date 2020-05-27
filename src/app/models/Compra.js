@@ -1,3 +1,4 @@
+
 import Sequelize, { Model } from 'sequelize';
 
 class Compra extends Model {
@@ -25,7 +26,6 @@ class Compra extends Model {
 
 		return this;
 	}
-
 }
 
 export default Compra;

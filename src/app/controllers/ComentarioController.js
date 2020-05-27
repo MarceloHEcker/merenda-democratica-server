@@ -1,3 +1,5 @@
+import * as Yup from 'yup';
+
 import Avaliacao from '../models/Avaliacao';
 import Comentario from '../models/Comentario';
 
@@ -6,7 +8,7 @@ class ComentarioController {
 
 		const comentarios = await Comentario.findAll({
 			where: {
-				avaliacao_id: req.avaliacaoId,
+				avaliacao_id: req.params.avaliacaoId,
 			},
 			include: [
 				{
@@ -15,7 +17,7 @@ class ComentarioController {
 					attributes: ['status', 'created_at'],
 				},
 			],
-			order: ['date'],
+			order: ['created_at'],
 		});
 
 		return res.json(comentarios);
@@ -24,7 +26,7 @@ class ComentarioController {
 	async store(req, res) {
 
 		const schema = Yup.object().shape({
-			comentario: Yup.boolean().required(),
+			comentario: Yup.string().required(),
 			avaliacao_id: Yup.number().required(),
 		});
 
@@ -34,7 +36,7 @@ class ComentarioController {
 
 		const { avaliacao_id, comentario } = req.body;
 
-		const comment = await Appointment.create({
+		const comment = await Comentario.create({
 			avaliacao_id,
 			comentario,
 		});

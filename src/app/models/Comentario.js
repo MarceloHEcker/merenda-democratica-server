@@ -8,6 +8,7 @@ class ComentarioAvaliacao extends Model {
 				comentario: Sequelize.STRING,
 			},
 			{
+				tableName: 'comentarios',
 				sequelize,
 			}
 		);

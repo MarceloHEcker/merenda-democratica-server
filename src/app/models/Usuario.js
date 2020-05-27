@@ -36,7 +36,7 @@ class Usuario extends Model {
 			}
 		});
 
-		return true;
+		return this;
 	}
 
 	static associate(models) {
