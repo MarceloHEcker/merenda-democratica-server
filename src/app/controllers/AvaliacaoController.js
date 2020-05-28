@@ -1,4 +1,6 @@
 import * as Yup from 'yup';
+import Twit from 'twit';
+
 import { startOfHour, parseISO, isBefore, format, subHours } from 'date-fns';
 import pt from 'date-fns/locale/pt';
 import Usuario from '../models/Usuario';
@@ -68,9 +70,31 @@ class AvaliacaoController {
 		console.log('created_at 3', result);
 	*/
 
-		return res.json(avaliacao);
+	if( !avaliacao.status ){
+		const order = await Compra.findByPk(compra_id);
+
+		const T = new Twit({
+			consumer_key:         '...',
+			consumer_secret:      '...',
+			access_token:         '...',
+			access_token_secret:  '...',
+			timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
+			strictSSL:            true,     // optional - requires SSL certificates to be valid.
+		});
+
+		const tweetContent = `Indício de fraude apontado por usuário na compra realizada! De ${order.produto} - ${order.municipio}/${order.uf} efetuada em ${order.year}`,
+
+		const twitterResponse = T.post('statuses/update', { status: tweetContent }, function(err, data, response) {
+			console.log('data from twitter', data);
+		});
+
+		twitterResponse();
 
 	}
+
+	return res.json(avaliacao);
+
+ 	}
 
 }
 
