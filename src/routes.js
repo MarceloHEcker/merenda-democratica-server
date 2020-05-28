@@ -21,10 +21,10 @@ routes.post('/sessions', SessionController.store);
 
 routes.get('/', (req, res) => res.send('ok'));
 
-routes.use(authMiddleware);
-
 routes.get('/avaliacoes', AvaliacaoController.index);
+routes.get('/avaliacoes/indicio-fraude', AvaliacaoController.indexBad);
 routes.post('/avaliacoes', AvaliacaoController.store);
+routes.get('/avaliacoes/:usuarioId/usuario', AvaliacaoController.indexByUser);
 
 routes.get('/comentarios/:avaliacaoId', checkAvaliacao, ComentarioController.index);
 routes.post('/comentarios', ComentarioController.store);
@@ -36,6 +36,7 @@ routes.get('/compras/random', CompraController.random);
 routes.get('/notificacoes', NotificacaoController.index);
 routes.put('/notificacoes/:id', NotificacaoController.update);
 
+//routes.use(authMiddleware);
 routes.post('/files', upload.single('file'), ArquivoController.store);
 
 export default routes;
