@@ -44,11 +44,10 @@ class UsuarioController {
 
 	async update(req, res) {
 		const schema = Yup.object().shape({
+			id: Yup.number().required(),
 			nome: Yup.string(),
-			email: Yup.string().email(),
+			email: Yup.string(),
 			login: Yup.string(),
-			endereco: Yup.string(),
-			data_nascimento: Yup.date(),
 			senhaAntiga: Yup.string().min(6),
 			senha: Yup.string()
 				.min(6)
@@ -64,9 +63,11 @@ class UsuarioController {
 			return res.status(400).json({ error: 'Erro na validação' });
 		}
 
+		console.log("req.body", req.body);
+
 		const { email, oldPassword } = req.body;
 
-		const user = await Usuario.findByPk(req.userId);
+		const user = await Usuario.findByPk(req.body.id);
 
 		if (email !== user.email) {
 			const userExists = await Usuario.findOne({ where: { email } });
@@ -82,7 +83,7 @@ class UsuarioController {
 
 		await user.update(req.body);
 
-		const { id, nome, avatar, endereco, data_nascimento, login, telefone } = await Usuario.findByPk(req.userId, {
+		const { id, nome, avatar, endereco, data_nascimento, login, telefone } = await Usuario.findByPk(req.body.id, {
 			include: [
 				{
 					model: Arquivo,

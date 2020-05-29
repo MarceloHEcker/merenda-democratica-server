@@ -9,6 +9,8 @@ import AvaliacaoController from './app/controllers/AvaliacaoController';
 import ComentarioController from './app/controllers/ComentarioController';
 import CompraController from './app/controllers/CompraController';
 import NotificacaoController from './app/controllers/NotificacaoController';
+import CompraController from './app/controllers/CompraController';
+import PrecoController from './app/controllers/PrecoController';
 
 import authMiddleware from './app/middlewares/auth';
 import checkAvaliacao from './app/middlewares/checkAvaliacao';
@@ -16,7 +18,9 @@ import checkAvaliacao from './app/middlewares/checkAvaliacao';
 const routes = new Router();
 const upload = multer(multerConfig);
 
-routes.post('/users', UsuarioController.store);
+routes.post('/usarios', UsuarioController.store);
+routes.put('/usuarios', UsuarioController.update);
+
 routes.post('/sessions', SessionController.store);
 
 routes.get('/', (req, res) => res.send('ok'));
@@ -35,6 +39,8 @@ routes.get('/compras/random', CompraController.random);
 
 routes.get('/notificacoes', NotificacaoController.index);
 routes.put('/notificacoes/:id', NotificacaoController.update);
+
+routes.post('/precos', PrecoController.store);
 
 //routes.use(authMiddleware);
 routes.post('/files', upload.single('file'), ArquivoController.store);
