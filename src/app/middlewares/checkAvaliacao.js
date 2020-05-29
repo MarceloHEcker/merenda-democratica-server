@@ -16,7 +16,6 @@ export default async (req, res, next) => {
 	const avaliacao = await Avaliacao.findByPk(avaliacaoId);
 
 	if (!avaliacao) {
-		console.log('entrou aqui');
 		return res.status(400).json({ error: 'Avaliação não encontrada' });
 	}
 

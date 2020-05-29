@@ -12,6 +12,7 @@ import NotificacaoController from './app/controllers/NotificacaoController';
 
 import authMiddleware from './app/middlewares/auth';
 import checkAvaliacao from './app/middlewares/checkAvaliacao';
+import checkCompra from './app/middlewares/checkCompra';
 
 const routes = new Router();
 const upload = multer(multerConfig);
@@ -29,9 +30,12 @@ routes.get('/avaliacoes/:usuarioId/usuario', AvaliacaoController.indexByUser);
 routes.get('/comentarios/:avaliacaoId', checkAvaliacao, ComentarioController.index);
 routes.post('/comentarios', ComentarioController.store);
 
+routes.get('/comentarios/:compraId/compra', checkCompra, ComentarioController.indexByOrder);
+
 routes.get('/compras', CompraController.index);
 routes.get('/compras-municipio', CompraController.indexByMunicipio);
 routes.get('/compras/random', CompraController.random);
+routes.get('/compras/:compraId/municipios-proximos', checkCompra, CompraController.indexMunicipiosProximos);
 
 routes.get('/notificacoes', NotificacaoController.index);
 routes.put('/notificacoes/:id', NotificacaoController.update);

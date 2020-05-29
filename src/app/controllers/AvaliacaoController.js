@@ -1,5 +1,6 @@
 import * as Yup from 'yup';
 import Twit from 'twit';
+import axios from 'axios';
 
 import { startOfHour, parseISO, isBefore, format, subHours } from 'date-fns';
 import pt from 'date-fns/locale/pt';

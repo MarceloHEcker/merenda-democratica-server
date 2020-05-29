@@ -1,4 +1,5 @@
 import * as Yup from 'yup';
+import { Op } from 'sequelize';
 
 import Avaliacao from '../models/Avaliacao';
 import Comentario from '../models/Comentario';
@@ -42,6 +43,33 @@ class ComentarioController {
 		});
 
 		return res.json(comment);
+
+	}
+
+	async indexByOrder(req, res) {
+
+		const compra_id = req.params.compraId;
+
+		const avaliacoes = await Avaliacao.findAll({
+			where: {
+				compra_id,
+			},
+		});
+
+		const filteredAvaliacoes = avaliacoes.map(item => item.id);
+
+		const comentarios = await Comentario.findAll({
+			where: {
+				avaliacao_id: {
+					[Op.in]: filteredAvaliacoes
+				}, 
+			},
+			order: [
+				['created_at', 'DESC'],
+			],
+		});
+
+		return res.json(comentarios);
 
 	}
 }
