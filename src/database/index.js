@@ -5,10 +5,11 @@ import Arquivo from '../app/models/Arquivo';
 import Avaliacao from '../app/models/Avaliacao';
 import Comentario from '../app/models/Comentario';
 import Compra from '../app/models/Compra';
+import Preco from '../app/models/Preco';
 
 import databaseConfig from '../config/database';
 
-const models = [Usuario, Arquivo, Avaliacao, Comentario, Compra];
+const models = [Usuario, Arquivo, Avaliacao, Comentario, Compra, Preco];
 
 class Database {
 	constructor() {
