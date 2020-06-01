@@ -1,0 +1,602 @@
+[
+  {
+    "quantidade": 1,
+    "valor_unitario": 9.212074279785156,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 2.464646339416504,
+    "valor_unitario": 9.198719024658203,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 3.929292917251587,
+    "valor_unitario": 9.18536376953125,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 5.39393949508667,
+    "valor_unitario": 9.17201042175293,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 6.858585834503174,
+    "valor_unitario": 9.158653259277344,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 8.323232650756836,
+    "valor_unitario": 9.145299911499023,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 9.787878036499023,
+    "valor_unitario": 9.131945610046387,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 11.252524375915527,
+    "valor_unitario": 9.118593215942383,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 12.717171669006348,
+    "valor_unitario": 9.105239868164062,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 14.181818962097168,
+    "valor_unitario": 9.091886520385742,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 15.646465301513672,
+    "valor_unitario": 9.078536987304688,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 17.111112594604492,
+    "valor_unitario": 9.065187454223633,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 18.575759887695312,
+    "valor_unitario": 9.051839828491211,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 20.0404052734375,
+    "valor_unitario": 9.038493156433105,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 21.50505256652832,
+    "valor_unitario": 9.025146484375,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 22.969697952270508,
+    "valor_unitario": 9.011802673339844,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 24.434343338012695,
+    "valor_unitario": 8.99846076965332,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 25.898988723754883,
+    "valor_unitario": 8.985121726989746,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 27.36363410949707,
+    "valor_unitario": 8.971782684326172,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 28.82828140258789,
+    "valor_unitario": 8.95844554901123,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 30.292926788330078,
+    "valor_unitario": 8.945112228393555,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 31.757572174072266,
+    "valor_unitario": 8.931779861450195,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 33.22221755981445,
+    "valor_unitario": 8.918451309204102,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 34.68686294555664,
+    "valor_unitario": 8.905122756958008,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 36.15150833129883,
+    "valor_unitario": 8.89179801940918,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 37.616153717041016,
+    "valor_unitario": 8.878477096557617,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 39.08080291748047,
+    "valor_unitario": 8.865158081054688,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 40.54545211791992,
+    "valor_unitario": 8.85184097290039,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 42.01009750366211,
+    "valor_unitario": 8.838530540466309,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 43.47474670410156,
+    "valor_unitario": 8.825220108032227,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 44.939395904541016,
+    "valor_unitario": 8.811912536621094,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 46.40404510498047,
+    "valor_unitario": 8.798611640930176,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 47.868690490722656,
+    "valor_unitario": 8.78531265258789,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 49.33333969116211,
+    "valor_unitario": 8.772016525268555,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 50.79798889160156,
+    "valor_unitario": 8.758724212646484,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 52.26263427734375,
+    "valor_unitario": 8.745438575744629,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 53.7272834777832,
+    "valor_unitario": 8.732152938842773,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 55.191932678222656,
+    "valor_unitario": 8.718873977661133,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 56.656578063964844,
+    "valor_unitario": 8.705598831176758,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 58.1212272644043,
+    "valor_unitario": 8.692327499389648,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 59.58587646484375,
+    "valor_unitario": 8.679059982299805,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 61.05052185058594,
+    "valor_unitario": 8.665799140930176,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 62.51517105102539,
+    "valor_unitario": 8.652542114257812,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 63.979820251464844,
+    "valor_unitario": 8.639289855957031,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 65.44446563720703,
+    "valor_unitario": 8.626042366027832,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 66.90911102294922,
+    "valor_unitario": 8.612798690795898,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 68.37376403808594,
+    "valor_unitario": 8.599562644958496,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 69.83840942382812,
+    "valor_unitario": 8.586329460144043,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 71.30305480957031,
+    "valor_unitario": 8.573101997375488,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 72.76770782470703,
+    "valor_unitario": 8.559881210327148,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 74.23235321044922,
+    "valor_unitario": 8.546666145324707,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 75.6969985961914,
+    "valor_unitario": 8.533455848693848,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 77.16165161132812,
+    "valor_unitario": 8.520251274108887,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 78.62629699707031,
+    "valor_unitario": 8.50705337524414,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 80.0909423828125,
+    "valor_unitario": 8.49386215209961,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 81.55559539794922,
+    "valor_unitario": 8.480674743652344,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 83.0202407836914,
+    "valor_unitario": 8.46749496459961,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 84.4848861694336,
+    "valor_unitario": 8.454322814941406,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 85.94953918457031,
+    "valor_unitario": 8.441154479980469,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 87.4141845703125,
+    "valor_unitario": 8.427994728088379,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 88.87882995605469,
+    "valor_unitario": 8.414839744567871,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 90.3434829711914,
+    "valor_unitario": 8.401694297790527,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 91.8081283569336,
+    "valor_unitario": 8.388553619384766,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 93.27278137207031,
+    "valor_unitario": 8.375421524047852,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 94.7374267578125,
+    "valor_unitario": 8.362295150756836,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 96.20207214355469,
+    "valor_unitario": 8.349175453186035,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 97.6667251586914,
+    "valor_unitario": 8.336064338684082,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 99.1313705444336,
+    "valor_unitario": 8.32296085357666,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 100.59601593017578,
+    "valor_unitario": 8.309863090515137,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 102.0606689453125,
+    "valor_unitario": 8.296774864196777,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 103.52531433105469,
+    "valor_unitario": 8.283695220947266,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 104.98995971679688,
+    "valor_unitario": 8.270621299743652,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 106.4546127319336,
+    "valor_unitario": 8.25755500793457,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 107.91925811767578,
+    "valor_unitario": 8.244497299194336,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 109.38390350341797,
+    "valor_unitario": 8.231449127197266,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 110.84855651855469,
+    "valor_unitario": 8.21840763092041,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 112.31320190429688,
+    "valor_unitario": 8.205375671386719,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 113.77784729003906,
+    "valor_unitario": 8.192353248596191,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 115.24250030517578,
+    "valor_unitario": 8.179337501525879,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 116.70714569091797,
+    "valor_unitario": 8.166329383850098,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 118.17179107666016,
+    "valor_unitario": 8.15333080291748,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 119.63644409179688,
+    "valor_unitario": 8.140341758728027,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 121.10108947753906,
+    "valor_unitario": 8.127361297607422,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 122.56573486328125,
+    "valor_unitario": 8.11439037322998,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 124.03038787841797,
+    "valor_unitario": 8.101428985595703,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 125.49503326416016,
+    "valor_unitario": 8.088475227355957,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 126.95967864990234,
+    "valor_unitario": 8.075531005859375,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 128.42433166503906,
+    "valor_unitario": 8.062597274780273,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 129.88897705078125,
+    "valor_unitario": 8.04967212677002,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 131.35362243652344,
+    "valor_unitario": 8.036758422851562,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 132.81826782226562,
+    "valor_unitario": 8.02385139465332,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 134.2829132080078,
+    "valor_unitario": 8.010955810546875,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 135.74757385253906,
+    "valor_unitario": 7.998072147369385,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 137.21221923828125,
+    "valor_unitario": 7.985196590423584,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 138.67686462402344,
+    "valor_unitario": 7.972331523895264,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 140.14151000976562,
+    "valor_unitario": 7.959476470947266,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 141.6061553955078,
+    "valor_unitario": 7.946630954742432,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 143.07080078125,
+    "valor_unitario": 7.9337968826293945,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 144.53546142578125,
+    "valor_unitario": 7.92097282409668,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 146.00010681152344,
+    "valor_unitario": 7.908158302307129,
+    "produto": "Polpa de frutas, diversos sabores, congelada",
+    "uf": "AC"
+  }
+]

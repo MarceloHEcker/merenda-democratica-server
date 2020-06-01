@@ -1,0 +1,602 @@
+[
+  {
+    "quantidade": 5,
+    "valor_unitario":2.8874666690826416,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 6.363636493682861,
+    "valor_unitario":2.8877673149108887,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 7.727272987365723,
+    "valor_unitario":2.8880677223205566,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 9.090909004211426,
+    "valor_unitario":2.888368606567383,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 10.454545974731445,
+    "valor_unitario":2.888669013977051,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 11.818181991577148,
+    "valor_unitario":2.8889689445495605,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 13.181818008422852,
+    "valor_unitario":2.8892691135406494,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 14.545454025268555,
+    "valor_unitario":2.889568328857422,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 15.909090995788574,
+    "valor_unitario":2.8898684978485107,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 17.272727966308594,
+    "valor_unitario":2.8901681900024414,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 18.636363983154297,
+    "valor_unitario":2.8904669284820557,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 20,
+    "valor_unitario":2.89076566696167,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 21.363637924194336,
+    "valor_unitario":2.8910651206970215,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 22.72727394104004,
+    "valor_unitario":2.8913633823394775,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 24.090909957885742,
+    "valor_unitario":2.891662120819092,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 25.454545974731445,
+    "valor_unitario":2.891960382461548,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 26.81818199157715,
+    "valor_unitario":2.892258405685425,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 28.18181800842285,
+    "valor_unitario":2.8925564289093018,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 29.545454025268555,
+    "valor_unitario":2.8928544521331787,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 30.909088134765625,
+    "valor_unitario":2.89315128326416,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 32.27272415161133,
+    "valor_unitario":2.893449306488037,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 33.63636016845703,
+    "valor_unitario":2.8937466144561768,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 34.999996185302734,
+    "valor_unitario":2.894043445587158,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 36.36363220214844,
+    "valor_unitario":2.8943405151367188,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 37.72726821899414,
+    "valor_unitario":2.894637107849121,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 39.090904235839844,
+    "valor_unitario":2.8949339389801025,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 40.45454025268555,
+    "valor_unitario":2.895230531692505,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 41.818180084228516,
+    "valor_unitario":2.895526647567749,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 43.18181610107422,
+    "valor_unitario":2.8958232402801514,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 44.54545593261719,
+    "valor_unitario":2.896118640899658,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 45.90909194946289,
+    "valor_unitario":2.896414279937744,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 47.272727966308594,
+    "valor_unitario":2.8967103958129883,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 48.63636779785156,
+    "valor_unitario":2.897005558013916,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 50.000003814697266,
+    "valor_unitario":2.897300958633423,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 51.363643646240234,
+    "valor_unitario":2.8975961208343506,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 52.72727966308594,
+    "valor_unitario":2.8978912830352783,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 54.090919494628906,
+    "valor_unitario":2.898186206817627,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 55.45455551147461,
+    "valor_unitario":2.8984808921813965,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 56.81819534301758,
+    "valor_unitario":2.898775339126587,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 58.18183135986328,
+    "valor_unitario":2.8990700244903564,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 59.54547119140625,
+    "valor_unitario":2.899364471435547,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 60.90910720825195,
+    "valor_unitario":2.899658679962158,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 62.272743225097656,
+    "valor_unitario":2.8999524116516113,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 63.636383056640625,
+    "valor_unitario":2.9002466201782227,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 65.00001525878906,
+    "valor_unitario":2.9005398750305176,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 66.36366271972656,
+    "valor_unitario":2.9008336067199707,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 67.727294921875,
+    "valor_unitario":2.901127338409424,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 69.09093475341797,
+    "valor_unitario":2.9014203548431396,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 70.45457458496094,
+    "valor_unitario":2.9017138481140137,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 71.81820678710938,
+    "valor_unitario":2.9020066261291504,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 73.18184661865234,
+    "valor_unitario":2.9022998809814453,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 74.54548645019531,
+    "valor_unitario":2.902592658996582,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 75.90912628173828,
+    "valor_unitario":2.902885675430298,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 77.27275848388672,
+    "valor_unitario":2.9031779766082764,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 78.63639831542969,
+    "valor_unitario":2.903470754623413,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 80.00003814697266,
+    "valor_unitario":2.9037628173828125,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 81.3636703491211,
+    "valor_unitario":2.904055118560791,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 82.72731018066406,
+    "valor_unitario":2.9043467044830322,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 84.09095001220703,
+    "valor_unitario":2.90463924407959,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 85.45458984375,
+    "valor_unitario":2.90493106842041,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 86.81822204589844,
+    "valor_unitario":2.9052228927612305,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 88.1818618774414,
+    "valor_unitario":2.905514717102051,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 89.54550170898438,
+    "valor_unitario":2.905806303024292,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 90.90913391113281,
+    "valor_unitario":2.906097650527954,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 92.27277374267578,
+    "valor_unitario":2.906388759613037,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 93.63641357421875,
+    "valor_unitario":2.906680107116699,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 95.00005340576172,
+    "valor_unitario":2.9069712162017822,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 96.36368560791016,
+    "valor_unitario":2.907262086868286,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 97.72732543945312,
+    "valor_unitario":2.9075534343719482,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 99.0909652709961,
+    "valor_unitario":2.907843828201294,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 100.45460510253906,
+    "valor_unitario":2.908134698867798,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 101.8182373046875,
+    "valor_unitario":2.9084250926971436,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 103.18187713623047,
+    "valor_unitario":2.9087159633636475,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 104.54551696777344,
+    "valor_unitario":2.9090065956115723,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 105.90914916992188,
+    "valor_unitario":2.909296989440918,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 107.27278900146484,
+    "valor_unitario":2.9095871448516846,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 108.63642883300781,
+    "valor_unitario":2.909877061843872,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 110.00006866455078,
+    "valor_unitario":2.9101672172546387,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 111.36370086669922,
+    "valor_unitario":2.9104573726654053,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 112.72734069824219,
+    "valor_unitario":2.9107470512390137,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 114.09098052978516,
+    "valor_unitario":2.9110372066497803,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 115.45462036132812,
+    "valor_unitario":2.9113264083862305,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 116.81825256347656,
+    "valor_unitario":2.911616325378418,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 118.18189239501953,
+    "valor_unitario":2.9119057655334473,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 119.5455322265625,
+    "valor_unitario":2.9121954441070557,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 120.90916442871094,
+    "valor_unitario":2.912484645843506,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 122.2728042602539,
+    "valor_unitario":2.912773847579956,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 123.63644409179688,
+    "valor_unitario":2.9130635261535645,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 125.00008392333984,
+    "valor_unitario":2.9133524894714355,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 126.36371612548828,
+    "valor_unitario":2.9136416912078857,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 127.72735595703125,
+    "valor_unitario":2.913930892944336,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 129.09100341796875,
+    "valor_unitario":2.914219856262207,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 130.4546356201172,
+    "valor_unitario":2.91450834274292,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 131.81826782226562,
+    "valor_unitario":2.914797782897949,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 133.18191528320312,
+    "valor_unitario":2.915086269378662,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 134.54554748535156,
+    "valor_unitario":2.915374994277954,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 135.9091796875,
+    "valor_unitario":2.915663480758667,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 137.2728271484375,
+    "valor_unitario":2.915952205657959,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 138.63645935058594,
+    "valor_unitario":2.916240930557251,
+    "produto": "Açucar",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 140.00009155273438,
+    "valor_unitario":2.916529417037964,
+    "produto": "Açucar",
+    "uf": "AC"
+  }
+]

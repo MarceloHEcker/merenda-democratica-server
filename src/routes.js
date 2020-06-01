@@ -11,6 +11,7 @@ import CompraController from './app/controllers/CompraController';
 import NotificacaoController from './app/controllers/NotificacaoController';
 import CompraController from './app/controllers/CompraController';
 import PrecoController from './app/controllers/PrecoController';
+import PrevisaoController from './app/controllers/PrevisaoController';
 
 import authMiddleware from './app/middlewares/auth';
 import checkAvaliacao from './app/middlewares/checkAvaliacao';
@@ -45,6 +46,9 @@ routes.get('/notificacoes', NotificacaoController.index);
 routes.put('/notificacoes/:id', NotificacaoController.update);
 
 routes.post('/precos', PrecoController.store);
+
+routes.get('/previsoes', PrevisaoController.index);
+routes.post('/previsoes/compra', PrevisaoController.get);
 
 //routes.use(authMiddleware);
 routes.post('/files', upload.single('file'), ArquivoController.store);

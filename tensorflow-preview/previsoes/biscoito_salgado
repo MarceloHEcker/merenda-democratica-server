@@ -1,0 +1,602 @@
+[
+  {
+    "quantidade": 9,
+    "valor_unitario":6.3586554527282715,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 19.010101318359375,
+    "valor_unitario":6.354420185089111,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 29.02020263671875,
+    "valor_unitario":6.350184917449951,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 39.030303955078125,
+    "valor_unitario":6.345952033996582,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 49.0404052734375,
+    "valor_unitario":6.34171724319458,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 59.05050277709961,
+    "valor_unitario":6.33748197555542,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 69.06060791015625,
+    "valor_unitario":6.333245277404785,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 79.0707015991211,
+    "valor_unitario":6.3290114402771,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 89.080810546875,
+    "valor_unitario":6.324777126312256,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 99.09091186523438,
+    "valor_unitario":6.320542335510254,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 109.10101318359375,
+    "valor_unitario":6.31630802154541,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 119.11112213134766,
+    "valor_unitario":6.312073230743408,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 129.1212158203125,
+    "valor_unitario":6.307837963104248,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 139.13133239746094,
+    "valor_unitario":6.3036041259765625,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 149.14141845703125,
+    "valor_unitario":6.299370765686035,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 159.15151977539062,
+    "valor_unitario":6.295134544372559,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 169.16162109375,
+    "valor_unitario":6.290901184082031,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 179.1717071533203,
+    "valor_unitario":6.286665916442871,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 189.1818084716797,
+    "valor_unitario":6.282431602478027,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 199.19190979003906,
+    "valor_unitario":6.278196334838867,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 209.20199584960938,
+    "valor_unitario":6.273962497711182,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 219.21209716796875,
+    "valor_unitario":6.269725799560547,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 229.22219848632812,
+    "valor_unitario":6.265491962432861,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 239.23228454589844,
+    "valor_unitario":6.261256217956543,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 249.2423858642578,
+    "valor_unitario":6.257022857666016,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 259.25250244140625,
+    "valor_unitario":6.2527875900268555,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 269.2626037597656,
+    "valor_unitario":6.2485527992248535,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 279.272705078125,
+    "valor_unitario":6.244318008422852,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 289.2828063964844,
+    "valor_unitario":6.240083694458008,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 299.2929382324219,
+    "valor_unitario":6.235849380493164,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 309.30303955078125,
+    "valor_unitario":6.231616973876953,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 319.3131408691406,
+    "valor_unitario":6.227380275726318,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 329.3232727050781,
+    "valor_unitario":6.22314453125,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 339.3333740234375,
+    "valor_unitario":6.218909740447998,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 349.3434753417969,
+    "valor_unitario":6.214676856994629,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 359.3536071777344,
+    "valor_unitario":6.210442543029785,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 369.36370849609375,
+    "valor_unitario":6.206208229064941,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 379.3738098144531,
+    "valor_unitario":6.201974391937256,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 389.3839416503906,
+    "valor_unitario":6.197739124298096,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 399.39404296875,
+    "valor_unitario":6.193504333496094,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 409.4041442871094,
+    "valor_unitario":6.189267158508301,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 419.4142761230469,
+    "valor_unitario":6.18503475189209,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 429.42437744140625,
+    "valor_unitario":6.180802345275879,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 439.4344787597656,
+    "valor_unitario":6.1765666007995605,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 449.4446105957031,
+    "valor_unitario":6.172332763671875,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 459.4547119140625,
+    "valor_unitario":6.1680989265441895,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 469.4648132324219,
+    "valor_unitario":6.1638641357421875,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 479.47491455078125,
+    "valor_unitario":6.159629821777344,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 489.48504638671875,
+    "valor_unitario":6.155395030975342,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 499.4951477050781,
+    "valor_unitario":6.151159286499023,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 509.5052490234375,
+    "valor_unitario":6.146925449371338,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 519.515380859375,
+    "valor_unitario":6.142692565917969,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 529.5255126953125,
+    "valor_unitario":6.138458251953125,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 539.5355834960938,
+    "valor_unitario":6.134223937988281,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 549.5457153320312,
+    "valor_unitario":6.1299896240234375,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 559.5558471679688,
+    "valor_unitario":6.12575626373291,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 569.56591796875,
+    "valor_unitario":6.121522903442383,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 579.5760498046875,
+    "valor_unitario":6.117288589477539,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 589.586181640625,
+    "valor_unitario":6.113054275512695,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 599.5962524414062,
+    "valor_unitario":6.108819961547852,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 609.6063842773438,
+    "valor_unitario":6.104586601257324,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 619.616455078125,
+    "valor_unitario":6.100352764129639,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 629.6265869140625,
+    "valor_unitario":6.09611701965332,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 639.63671875,
+    "valor_unitario":6.091882705688477,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 649.6467895507812,
+    "valor_unitario":6.087650299072266,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 659.6569213867188,
+    "valor_unitario":6.0834197998046875,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 669.6670532226562,
+    "valor_unitario":6.079183578491211,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 679.6771240234375,
+    "valor_unitario":6.074950218200684,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 689.687255859375,
+    "valor_unitario":6.070714473724365,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 699.6973876953125,
+    "valor_unitario":6.066481113433838,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 709.7074584960938,
+    "valor_unitario":6.062248229980469,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 719.7175903320312,
+    "valor_unitario":6.058014392852783,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 729.7277221679688,
+    "valor_unitario":6.053780555725098,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 739.73779296875,
+    "valor_unitario":6.049546241760254,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 749.7479248046875,
+    "valor_unitario":6.045313835144043,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 759.758056640625,
+    "valor_unitario":6.04108190536499,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 769.7681274414062,
+    "valor_unitario":6.036846160888672,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 779.7782592773438,
+    "valor_unitario":6.032614707946777,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 789.7883911132812,
+    "valor_unitario":6.02838134765625,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 799.7984619140625,
+    "valor_unitario":6.024148464202881,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 809.80859375,
+    "valor_unitario":6.019914627075195,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 819.8187255859375,
+    "valor_unitario":6.015682220458984,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 829.8287963867188,
+    "valor_unitario":6.011448383331299,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 839.8389282226562,
+    "valor_unitario":6.0072174072265625,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 849.8490600585938,
+    "valor_unitario":6.0029826164245605,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 859.859130859375,
+    "valor_unitario":5.998748779296875,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 869.8692626953125,
+    "valor_unitario":5.994516372680664,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 879.87939453125,
+    "valor_unitario":5.9902849197387695,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 889.8894653320312,
+    "valor_unitario":5.986051559448242,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 899.8995971679688,
+    "valor_unitario":5.981819152832031,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 909.9097290039062,
+    "valor_unitario":5.977585792541504,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 919.9197998046875,
+    "valor_unitario":5.973354339599609,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 929.929931640625,
+    "valor_unitario":5.969120979309082,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 939.9400634765625,
+    "valor_unitario":5.964888572692871,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 949.9501342773438,
+    "valor_unitario":5.96065616607666,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 959.9602661132812,
+    "valor_unitario":5.956423759460449,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 969.9703979492188,
+    "valor_unitario":5.952190399169922,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 979.98046875,
+    "valor_unitario":5.947958946228027,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 989.9906005859375,
+    "valor_unitario":5.943727493286133,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 1000.000732421875,
+    "valor_unitario":5.9394941329956055,
+    "produto": "Biscoito salgado",
+    "uf": "AC"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "quantidade": 4,
+    "valor_unitario":2.897029399871826,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 5.242424011230469,
+    "valor_unitario":2.8907017707824707,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 6.484848499298096,
+    "valor_unitario":2.884373188018799,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 7.727272987365723,
+    "valor_unitario":2.878044605255127,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 8.969696998596191,
+    "valor_unitario":2.871716022491455,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 10.21212100982666,
+    "valor_unitario":2.8653876781463623,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 11.454545021057129,
+    "valor_unitario":2.8590590953826904,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 12.696969032287598,
+    "valor_unitario":2.8527302742004395,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 13.939393997192383,
+    "valor_unitario":2.8464016914367676,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 15.181818962097168,
+    "valor_unitario":2.8400731086730957,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 16.424243927001953,
+    "valor_unitario":2.8337440490722656,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 17.666667938232422,
+    "valor_unitario":2.827415943145752,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 18.90909194946289,
+    "valor_unitario":2.82108736038208,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 20.15151596069336,
+    "valor_unitario":2.814758777618408,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 21.393939971923828,
+    "valor_unitario":2.8084309101104736,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 22.636363983154297,
+    "valor_unitario":2.80210280418396,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 23.878787994384766,
+    "valor_unitario":2.795774459838867,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 25.121212005615234,
+    "valor_unitario":2.78944730758667,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 26.363636016845703,
+    "valor_unitario":2.7831196784973145,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 27.60605812072754,
+    "valor_unitario":2.7767932415008545,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 28.848482131958008,
+    "valor_unitario":2.7704663276672363,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 30.090906143188477,
+    "valor_unitario":2.7641398906707764,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 31.333330154418945,
+    "valor_unitario":2.7578134536743164,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 32.57575225830078,
+    "valor_unitario":2.7514877319335938,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 33.81817626953125,
+    "valor_unitario":2.7451627254486084,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 35.06060028076172,
+    "valor_unitario":2.738837718963623,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 36.30302810668945,
+    "valor_unitario":2.732513427734375,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 37.54545211791992,
+    "valor_unitario":2.726189374923706,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 38.78787612915039,
+    "valor_unitario":2.7198662757873535,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 40.030303955078125,
+    "valor_unitario":2.713542938232422,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 41.272727966308594,
+    "valor_unitario":2.7072207927703857,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 42.51515197753906,
+    "valor_unitario":2.700899362564087,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 43.7575798034668,
+    "valor_unitario":2.694577932357788,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 45.000003814697266,
+    "valor_unitario":2.6882576942443848,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 46.242431640625,
+    "valor_unitario":2.6819376945495605,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 47.48485565185547,
+    "valor_unitario":2.6756186485290527,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 48.72727966308594,
+    "valor_unitario":2.6693005561828613,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 49.96970748901367,
+    "valor_unitario":2.66298246383667,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 51.21213150024414,
+    "valor_unitario":2.656665802001953,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 52.454559326171875,
+    "valor_unitario":2.6503493785858154,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 53.696983337402344,
+    "valor_unitario":2.6440343856811523,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 54.93940734863281,
+    "valor_unitario":2.6377201080322266,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 56.18183517456055,
+    "valor_unitario":2.631406307220459,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 57.424259185791016,
+    "valor_unitario":2.625093460083008,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 58.66668701171875,
+    "valor_unitario":2.6187822818756104,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 59.90911102294922,
+    "valor_unitario":2.612471580505371,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 61.15153503417969,
+    "valor_unitario":2.606161594390869,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 62.39396286010742,
+    "valor_unitario":2.5998525619506836,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 63.63638687133789,
+    "valor_unitario":2.5935449600219727,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 64.87881469726562,
+    "valor_unitario":2.587238073348999,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 66.1212387084961,
+    "valor_unitario":2.580932378768921,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 67.36366271972656,
+    "valor_unitario":2.5746281147003174,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 68.60608673095703,
+    "valor_unitario":2.5683248043060303,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 69.84851837158203,
+    "valor_unitario":2.5620226860046387,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 71.0909423828125,
+    "valor_unitario":2.5557212829589844,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 72.33336639404297,
+    "valor_unitario":2.5494210720062256,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 73.57579040527344,
+    "valor_unitario":2.5431227684020996,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 74.8182144165039,
+    "valor_unitario":2.53682541847229,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 76.0606460571289,
+    "valor_unitario":2.530529499053955,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 77.30307006835938,
+    "valor_unitario":2.5242342948913574,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 78.54549407958984,
+    "valor_unitario":2.5179409980773926,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 79.78791809082031,
+    "valor_unitario":2.5116491317749023,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 81.03034210205078,
+    "valor_unitario":2.5053582191467285,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 82.27276611328125,
+    "valor_unitario":2.4990687370300293,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 83.51519775390625,
+    "valor_unitario":2.4927806854248047,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 84.75762176513672,
+    "valor_unitario":2.486494541168213,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 86.00004577636719,
+    "valor_unitario":2.4802095890045166,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 87.24246978759766,
+    "valor_unitario":2.473926067352295,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 88.48489379882812,
+    "valor_unitario":2.467643976211548,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 89.72732543945312,
+    "valor_unitario":2.4613635540008545,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 90.9697494506836,
+    "valor_unitario":2.455085039138794,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 92.21217346191406,
+    "valor_unitario":2.448807716369629,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 93.45459747314453,
+    "valor_unitario":2.4425323009490967,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 94.697021484375,
+    "valor_unitario":2.436258316040039,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 95.939453125,
+    "valor_unitario":2.429986000061035,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 97.18187713623047,
+    "valor_unitario":2.423715353012085,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 98.42430114746094,
+    "valor_unitario":2.4174468517303467,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 99.6667251586914,
+    "valor_unitario":2.411179542541504,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 100.90914916992188,
+    "valor_unitario":2.404914379119873,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 102.15158081054688,
+    "valor_unitario":2.398651123046875,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 103.39400482177734,
+    "valor_unitario":2.3923890590667725,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 104.63642883300781,
+    "valor_unitario":2.386129379272461,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 105.87885284423828,
+    "valor_unitario":2.3798716068267822,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 107.12127685546875,
+    "valor_unitario":2.3736157417297363,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 108.36370849609375,
+    "valor_unitario":2.367361307144165,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 109.60613250732422,
+    "valor_unitario":2.3611092567443848,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 110.84855651855469,
+    "valor_unitario":2.3548591136932373,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 112.09098052978516,
+    "valor_unitario":2.3486106395721436,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 113.33340454101562,
+    "valor_unitario":2.34236478805542,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 114.57583618164062,
+    "valor_unitario":2.336120128631592,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 115.8182601928711,
+    "valor_unitario":2.329878330230713,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 117.06068420410156,
+    "valor_unitario":2.323638439178467,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 118.30310821533203,
+    "valor_unitario":2.3174004554748535,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 119.5455322265625,
+    "valor_unitario":2.3111648559570312,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 120.7879638671875,
+    "valor_unitario":2.304931163787842,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 122.03038787841797,
+    "valor_unitario":2.2986998558044434,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 123.27281188964844,
+    "valor_unitario":2.292470693588257,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 124.5152359008789,
+    "valor_unitario":2.286243438720703,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 125.75765991210938,
+    "valor_unitario":2.2800188064575195,
+    "produto": "Banana",
+    "uf": "AC"
+  },
+  {
+    "quantidade": 127.00009155273438,
+    "valor_unitario":2.273796319961548,
+    "produto": "Banana",
+    "uf": "AC"
+  }
+]

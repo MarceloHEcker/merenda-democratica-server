@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 import axios from 'axios';
 
 import Compra from '../models/Compra';
-import { Op } from 'sequelize'; 
+import { Op } from 'sequelize';
 
 class CompraController {
 	async index(req, res) {
@@ -50,10 +50,21 @@ class CompraController {
 	}
 
 	async random(req, res) {
+
+		/*
 		const order = await Compra.findOne({
 			order: [
 				Sequelize.fn('RAND'),
 			],
+			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
+		});
+
+		*/
+
+		const order = await Compra.findOne({
+			where: {
+				id: 10504
+			},
 			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
 		});
 
@@ -65,7 +76,7 @@ class CompraController {
 		const compra_id = req.params.compraId;
 
 		const order = await Compra.findByPk(compra_id);
-		
+
 		const municipiosUF = await axios.get(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${order.uf}/municipios`);
 
 		const municipioCompra = municipiosUF.data.filter(item => String(item.nome).toLowerCase() === String(order.municipio).toLowerCase())[0];
@@ -74,15 +85,15 @@ class CompraController {
 
 		const municipiosMicrorregiao = await axios.get(`https://servicodados.ibge.gov.br/api/v1/localidades/microrregioes/${microrregiaoId}/municipios`);
 
-		const municipiosArray = 
+		const municipiosArray =
 			municipiosMicrorregiao.data.map(item => String(item.nome).toUpperCase()).filter(item => item !== order.municipio);
 
 		const compras = await Compra.findAll({
 			where: {
 				municipio: {
 					[Op.in]: municipiosArray
-				}, 
-				produto: order.produto, 
+				},
+				produto: order.produto,
 				unidade_medida: order.unidade_medida,
 			},
 			limit: 15,
