@@ -8,7 +8,6 @@ import SessionController from './app/controllers/SessionController';
 import AvaliacaoController from './app/controllers/AvaliacaoController';
 import ComentarioController from './app/controllers/ComentarioController';
 import CompraController from './app/controllers/CompraController';
-import NotificacaoController from './app/controllers/NotificacaoController';
 import CompraController from './app/controllers/CompraController';
 import PrecoController from './app/controllers/PrecoController';
 import PrevisaoController from './app/controllers/PrevisaoController';
@@ -41,9 +40,6 @@ routes.get('/compras', CompraController.index);
 routes.get('/compras-municipio', CompraController.indexByMunicipio);
 routes.get('/compras/random', CompraController.random);
 routes.get('/compras/:compraId/municipios-proximos', checkCompra, CompraController.indexMunicipiosProximos);
-
-routes.get('/notificacoes', NotificacaoController.index);
-routes.put('/notificacoes/:id', NotificacaoController.update);
 
 routes.post('/precos', PrecoController.store);
 

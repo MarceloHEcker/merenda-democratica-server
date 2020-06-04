@@ -6,7 +6,6 @@ import { startOfHour, parseISO, isBefore, format, subHours } from 'date-fns';
 import pt from 'date-fns/locale/pt';
 import Usuario from '../models/Usuario';
 import Compra from '../models/Compra';
-import Notificacao from '../schemas/Notificacao';
 import Avaliacao from '../models/Avaliacao';
 
 class AvaliacaoController {
@@ -104,26 +103,6 @@ class AvaliacaoController {
 			status,
 			compra_id,
 		});
-
-		/**
-		 * Notificando avaliação realizada
-		 *
-		const order = await Compra.findByPk(compra_id);
-
-		const hourStart = startOfHour(new Date());
-		const formattedDate = format(
-			hourStart,
-			"'dia' dd 'de' MMMM', às' H:mm'h'",
-			{ locale: pt }
-		);
-
-		const result = await Notificacao.create({
-			content: `Nova avaliação de compra realizada! De ${order.produto} - ${order.municipio}/${order.uf} às ${formattedDate}`,
-			user: 1,
-		});
-
-		console.log('created_at 3', result);
-	*/
 
 		if (!avaliacao.status) {
 			const order = await Compra.findByPk(compra_id);
