@@ -42,7 +42,8 @@ class CompraController {
 				}
 			},
 			offset: (page - 1) * limit,
-			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
+			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto',
+          'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
 		});
 
 		return res.json(orders);
@@ -54,7 +55,8 @@ class CompraController {
 			where: {
 				id: 10504
 			},
-			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
+			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa',
+                   'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
 		});
 
 		return res.json(order);
