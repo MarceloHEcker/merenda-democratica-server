@@ -1,9 +1,8 @@
-import Sequelize from 'sequelize';
+import Sequelize, { Op } from 'sequelize';
 import * as Yup from 'yup';
 import axios from 'axios';
 
 import Compra from '../models/Compra';
-import { Op } from 'sequelize';
 
 class CompraController {
 	async index(req, res) {
@@ -50,16 +49,6 @@ class CompraController {
 	}
 
 	async random(req, res) {
-
-		/*
-		const order = await Compra.findOne({
-			order: [
-				Sequelize.fn('RAND'),
-			],
-			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
-		});
-
-		*/
 
 		const order = await Compra.findOne({
 			where: {
