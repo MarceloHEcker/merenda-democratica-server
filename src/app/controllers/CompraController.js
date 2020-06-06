@@ -51,12 +51,11 @@ class CompraController {
 
 	async random(req, res) {
 
-		const order = await Compra.findOne({
-			where: {
-				id: 10504
-			},
-			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa',
-                   'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
+	const order = await Compra.findOne({
+			order: [
+				Sequelize.fn('RAND'),
+			],
+			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
 		});
 
 		return res.json(order);
