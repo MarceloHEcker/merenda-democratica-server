@@ -2,7 +2,8 @@
  * Pegando os dados brutos e realizando uma limpeza
  */
 async function getData() {
-  const productsDataReq = await fetch('http://localhost/tensorflow-preview/produtos/polpa_frutas.json');
+ 
+  const productsDataReq = await fetch('http://localhost/tensorflow-preview/produtos/acucar.json');
   const productsData = await productsDataReq.json();
   const cleaned = productsData.map(product => ({
     valor_unitario: parseFloat(product.valor_unitario),
@@ -10,16 +11,22 @@ async function getData() {
   }))
     .filter(product => (product.valor_unitario != null && product.quantidade != null));
 
+  
+  //filtrando registros com outliers no valor unitário
   const filteredXValues = filterOutliers(cleaned.map(item => item.valor_unitario));
   const filteredXData = cleaned.filter(item => filteredXValues.includes(item.valor_unitario));
 
+  //filtrando registros com outliers na quantidade
   const filteredValues = filterOutliers(filteredXData.map(item => item.quantidade));
   const filteredData = filteredXData.filter(item => filteredValues.includes(item.quantidade));
 
   return filteredData;
 }
 
-
+/**
+ * Método que filtra outliers de elementos presentes em um array
+ *  
+ */
 function filterOutliers(someArray) {
 
   var values = someArray.concat();
@@ -43,38 +50,57 @@ function filterOutliers(someArray) {
   return filteredValues;
 }
 
-
+/**
+ * Método resposnável por criar o modelo para realizar 
+ */
 function createModel() {
+
+  //criando um modelo utilizando a API sequencial (1 entrada - 1 saída)
   const model = tf.sequential();
 
+  //definindo uma camada de entrada dos dados
   model.add(tf.layers.dense({ inputShape: [1], units: 1, useBias: true }));
 
+  //defindo camadas intermeditárias ocultas que utilizam a função de ativação sigmóide 
   model.add(tf.layers.dense({ units: 50, activation: 'sigmoid' }));
 
+  //definindo uma camada de saída dos dados
   model.add(tf.layers.dense({ units: 1, useBias: true }));
 
   return model;
 }
 
+
+/*
+ * Converte os dados de entrada para tensores que possamos realizar aprendizado  
+ *  de forma mais ediciente
+ */
 function convertToTensor(data) {
 
   return tf.tidy(() => {
+    
+    //randomizando a ordem dos dados
     tf.util.shuffle(data);
 
+    //convertendo os dados para tensores. 1 rensor de entrada e outro tensor com as saídas
     const inputs = data.map(d => d.quantidade)
     const labels = data.map(d => d.valor_unitario);
 
     const inputTensor = tf.tensor2d(inputs, [inputs.length, 1]);
     const labelTensor = tf.tensor2d(labels, [labels.length, 1]);
 
+    // normalizando os dados na escala 0-1 utilizando as funções utilitárias min e max do TensorFlow
     const inputMax = inputTensor.max();
     const inputMin = inputTensor.min();
     const labelMax = labelTensor.max();
     const labelMin = labelTensor.min();
 
+    // funções auxiliares do tensor flow evitam que seja necessário laços para determinar
+    // valores mínimos e máximos 
     const normalizedInputs = inputTensor.sub(inputMin).div(inputMax.sub(inputMin));
     const normalizedLabels = labelTensor.sub(labelMin).div(labelMax.sub(labelMin));
 
+    // retornando os tensores e as informações para poder recuperar essas valores novamente
     return {
       inputs: normalizedInputs,
       labels: normalizedLabels,
@@ -87,15 +113,22 @@ function convertToTensor(data) {
 }
 
 async function trainModel(model, inputs, labels) {
+
+  //preparando o modelo para treinamento
   model.compile({
+    //escolhendo o otimizador
     optimizer: tf.train.adam(),
+    //definindo a medida de erro
     loss: tf.losses.meanSquaredError,
     metrics: ['mse'],
   });
 
+  //definindo o tamanho dos blocos de dados utilizados no treinamento
   const batchSize = 32;
+  //definindo o numero de interações inteiras realizadas no dataset
   const epochs = 50;
 
+  //iniciando o treinamento e exibindo valores do índice de erro em um gráfico
   return await model.fit(inputs, labels, {
     batchSize,
     epochs,
@@ -114,9 +147,11 @@ function testModel(model, inputData, normalizationData) {
 
   const [xs, preds] = tf.tidy(() => {
 
+    // gerando previsões para uma faixa uniforme de valores entre 0 e 1
     const xs = tf.linspace(0, 1, 100);
     const preds = model.predict(xs.reshape([100, 1]));
 
+    //desnormalizando dos dados
     const unNormXs = xs
       .mul(inputMax.sub(inputMin))
       .add(inputMin);
@@ -129,19 +164,22 @@ function testModel(model, inputData, normalizationData) {
   });
 
 
+  //dados previstos
   const predictedPoints = Array.from(xs).map((val, i) => {
-    return { x: val, y: preds[i], produto: 'Polpa de frutas, diversos sabores, congelada', uf: 'AC' }
+    return { x: val, y: preds[i], produto: 'Açucar', uf: 'AC' }
   });
 
   console.log('predictedPoints', predictedPoints);
 
+  //dados originais
   const originalPoints = inputData.map(d => ({
     x: d.quantidade, y: d.valor_unitario,
   }));
 
 
+  // plotando o resultado de nossas previsões em um gráfico
   tfvis.render.scatterplot(
-    { name: 'Model Predictions vs Original Data' },
+    { name: 'Previsões do Modelo vs Valores Originais' },
     { values: [originalPoints, predictedPoints], series: ['original', 'predicted'] },
     {
       xLabel: 'Quantidade',
@@ -153,34 +191,22 @@ function testModel(model, inputData, normalizationData) {
 
 
 async function run() {
+  
+  // carregando os dados
   const data = await getData();
-  const values = data.map(d => ({
-    x: d.quantidade,
-    y: d.valor_unitario,
-  }));
 
-  console.log("values", values);
-
-  tfvis.render.scatterplot(
-    { name: 'Quantidade x Valor Unitário' },
-    { values },
-    {
-      xLabel: 'Quantidade',
-      yLabel: 'Valor Unitário',
-      height: 300
-    }
-  );
-
-
+  // construindo modelo
   const model = createModel();
-  tfvis.show.modelSummary({ name: 'Model Summary' }, model);
+  tfvis.show.modelSummary({ name: 'Definição do Modelo' }, model);
 
+  // convertendo os dados para tensores
   const tensorData = convertToTensor(data);
   const { inputs, labels } = tensorData;
 
+  // realizando o treinamento do modelo
   await trainModel(model, inputs, labels);
-  console.log('Done Training');
 
+  // realizando previsões com o modelo treinado
   testModel(model, data, tensorData);
 }
 
