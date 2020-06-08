@@ -13,7 +13,8 @@ class CompraController {
 		const orders = await Compra.findAll({
 			limit: limit,
 			offset: (page - 1) * limit,
-			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
+			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico',
+			 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
 		});
 
 		return res.json(orders);
@@ -51,13 +52,24 @@ class CompraController {
 
 	async random(req, res) {
 
-    const order = await Compra.findOne({
-        order: [
-          Sequelize.fn('RAND'),
-        ],
-        attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto',
-                     'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
-      });
+
+		const order = await Compra.findOne({
+			where: {
+				id: 382
+			},
+			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
+		});
+
+		/*
+
+		const order = await Compra.findOne({
+			order: [
+			Sequelize.fn('RAND'),
+			],
+			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto',
+						'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
+		});
+		*/
 
 		return res.json(order);
 	}
@@ -68,16 +80,22 @@ class CompraController {
 
 		const order = await Compra.findByPk(compra_id);
 
-		const municipiosUF = await axios.get(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${order.uf}/municipios`);
+		const municipiosUF = await axios.get(
+			`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${order.uf}/municipios`);
 
-		const municipioCompra = municipiosUF.data.filter(item => String(item.nome).toLowerCase() === String(order.municipio).toLowerCase())[0];
+		const municipioCompra = municipiosUF.data.filter(item => String(item.nome)
+			.toLowerCase() === String(order.municipio)
+			.toLowerCase())[0];
 
 		const microrregiaoId = municipioCompra ? municipioCompra.microrregiao.id : -1;
 
-		const municipiosMicrorregiao = await axios.get(`https://servicodados.ibge.gov.br/api/v1/localidades/microrregioes/${microrregiaoId}/municipios`);
+		const municipiosMicrorregiao = await axios.get(
+			`https://servicodados.ibge.gov.br/api/v1/localidades/microrregioes/${microrregiaoId}/municipios`);
 
 		const municipiosArray =
-			municipiosMicrorregiao.data.map(item => String(item.nome).toUpperCase()).filter(item => item !== order.municipio);
+			municipiosMicrorregiao.data.map(item => String(item.nome)
+			.toUpperCase())
+			.filter(item => item !== order.municipio);
 
 		const compras = await Compra.findAll({
 			where: {

@@ -20,11 +20,13 @@ const routes = new Router();
 const upload = multer(multerConfig);
 
 routes.post('/usarios', UsuarioController.store);
-routes.put('/usuarios', UsuarioController.update);
 
 routes.post('/sessions', SessionController.store);
 
 routes.get('/', (req, res) => res.send('ok'));
+
+//routes.use(authMiddleware);
+routes.put('/usuarios', UsuarioController.update);
 
 routes.get('/avaliacoes', AvaliacaoController.index);
 routes.get('/avaliacoes/indicio-fraude', AvaliacaoController.indexBad);
@@ -39,14 +41,15 @@ routes.get('/comentarios/:compraId/compra', checkCompra, ComentarioController.in
 routes.get('/compras', CompraController.index);
 routes.get('/compras-municipio', CompraController.indexByMunicipio);
 routes.get('/compras/random', CompraController.random);
-routes.get('/compras/:compraId/municipios-proximos', checkCompra, CompraController.indexMunicipiosProximos);
+routes.get('/compras/:compraId/municipios-proximos', 
+checkCompra,
+CompraController.indexMunicipiosProximos);
 
 routes.post('/precos', PrecoController.store);
 
 routes.get('/previsoes', PrevisaoController.index);
 routes.post('/previsoes/compra', PrevisaoController.get);
 
-//routes.use(authMiddleware);
 routes.post('/files', upload.single('file'), ArquivoController.store);
 
 export default routes;
