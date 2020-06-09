@@ -6,7 +6,6 @@ class Avaliacao extends Model {
 		super.init(
 			{
 				status: Sequelize.BOOLEAN,
-				flag: Sequelize.STRING,
 			},
 			{
 				tableName: 'avaliacoes',

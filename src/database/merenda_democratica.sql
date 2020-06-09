@@ -44,7 +44,6 @@ CREATE TABLE `arquivos` (
 CREATE TABLE `avaliacoes` (
   `id` int(11) NOT NULL,
   `status` tinyint(1) NOT NULL,
-  `flag` varchar(255) DEFAULT NULL,
   `compra_id` int(11) DEFAULT NULL,
   `usuario_id` int(11) DEFAULT NULL,
   `created_at` datetime NOT NULL,
@@ -55,8 +54,8 @@ CREATE TABLE `avaliacoes` (
 -- Extraindo dados da tabela `avaliacoes`
 --
 
-INSERT INTO `avaliacoes` (`id`, `status`, `flag`, `compra_id`, `usuario_id`, `created_at`, `updated_at`) VALUES
-(2, 0, NULL, 10504, 1, '2020-06-01 20:53:29', '2020-06-01 20:53:29');
+INSERT INTO `avaliacoes` (`id`, `status`, `compra_id`, `usuario_id`, `created_at`, `updated_at`) VALUES
+(2, 0, 10504, 1, '2020-06-01 20:53:29', '2020-06-01 20:53:29');
 
 -- --------------------------------------------------------
 
