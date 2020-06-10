@@ -84,6 +84,30 @@ class AvaliacaoController {
 		return res.json(avaliacoes);
 	}
 
+	async get(req, res) {
+
+		const avaliacao = await Avaliacao.findOne({
+			where: {
+				id: req.params.avaliacaoId,
+			},
+			include: [
+				{
+					model: Usuario,
+					as: 'usuario',
+				},
+				{
+					model: Compra,
+					as: 'compra',
+				}
+			],
+			order: [
+				['created_at', 'DESC']
+			],
+		});
+
+		return res.json(avaliacao);
+	}
+
 	async store(req, res) {
 
 		const schema = Yup.object().shape({

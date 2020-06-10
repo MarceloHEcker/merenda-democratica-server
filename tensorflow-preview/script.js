@@ -2,8 +2,8 @@
  * Pegando os dados brutos e realizando uma limpeza
  */
 async function getData() {
- 
-  const productsDataReq = await fetch('http://localhost/tensorflow-preview/produtos/acucar.json');
+
+  const productsDataReq = await fetch('http://localhost/tensorflow-preview/produtos/carne_bovina.json');
   const productsData = await productsDataReq.json();
   const cleaned = productsData.map(product => ({
     valor_unitario: parseFloat(product.valor_unitario),
@@ -11,7 +11,7 @@ async function getData() {
   }))
     .filter(product => (product.valor_unitario != null && product.quantidade != null));
 
-  
+
   //filtrando registros com outliers no valor unitário
   const filteredXValues = filterOutliers(cleaned.map(item => item.valor_unitario));
   const filteredXData = cleaned.filter(item => filteredXValues.includes(item.valor_unitario));
@@ -78,7 +78,7 @@ function createModel() {
 function convertToTensor(data) {
 
   return tf.tidy(() => {
-    
+
     //randomizando a ordem dos dados
     tf.util.shuffle(data);
 
@@ -191,7 +191,7 @@ function testModel(model, inputData, normalizationData) {
 
 
 async function run() {
-  
+
   // carregando os dados
   const data = await getData();
 
