@@ -49,6 +49,7 @@ routes.post('/precos', PrecoController.store);
 
 routes.get('/previsoes', PrevisaoController.index);
 routes.post('/previsoes/compra', PrevisaoController.get);
+routes.get('/previsoes/executar', PrevisaoController.executePreview);
 
 routes.post('/files', upload.single('file'), ArquivoController.store);
 
