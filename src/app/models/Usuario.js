@@ -32,7 +32,7 @@ class Usuario extends Model {
 		this.addHook('beforeSave', async usuario => {
 			if (usuario.senha) {
 				// eslint-disable-next-line no-param-reassign
-				user.senha_hash = await bcrypt.hash(usuario.senha, 8);
+				usuario.senha_hash = await bcrypt.hash(usuario.senha, 8);
 			}
 		});
 

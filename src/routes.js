@@ -19,7 +19,7 @@ import checkCompra from './app/middlewares/checkCompra';
 const routes = new Router();
 const upload = multer(multerConfig);
 
-routes.post('/usarios', UsuarioController.store);
+routes.post('/usuarios', UsuarioController.store);
 
 routes.post('/sessions', SessionController.store);
 

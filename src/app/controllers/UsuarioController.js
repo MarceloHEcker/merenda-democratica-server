@@ -13,7 +13,7 @@ class UsuarioController {
 				.required(),
 			login: Yup.string()
 				.required(),
-			password: Yup.string()
+			senha: Yup.string()
 				.required()
 				.min(6),
 			telefone: Yup.string(),
@@ -29,15 +29,13 @@ class UsuarioController {
 			return res.status(400).json({ error: 'Usuário já existe.' });
 		}
 
-		const { id, name, email } = await Usuario.create(req.body);
+		const { id, nome, email, login, telefone } = await Usuario.create(req.body);
 
 		return res.json({
-			id,
+			id, 
 			nome,
 			email,
 			login,
-			endereco,
-			data_nascimento,
 			telefone
 		});
 	}
