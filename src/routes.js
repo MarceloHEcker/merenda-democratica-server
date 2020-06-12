@@ -30,8 +30,10 @@ routes.put('/usuarios', UsuarioController.update);
 
 routes.get('/avaliacoes', AvaliacaoController.index);
 routes.get('/avaliacoes/indicio-fraude', AvaliacaoController.indexBad);
-routes.post('/avaliacoes', AvaliacaoController.store);
+routes.get('/avaliacoes/:avaliacaoId', AvaliacaoController.get);
 routes.get('/avaliacoes/:usuarioId/usuario', AvaliacaoController.indexByUser);
+
+routes.post('/avaliacoes', AvaliacaoController.store);
 
 routes.get('/comentarios/:avaliacaoId', checkAvaliacao, ComentarioController.index);
 routes.post('/comentarios', ComentarioController.store);
@@ -41,9 +43,9 @@ routes.get('/comentarios/:compraId/compra', checkCompra, ComentarioController.in
 routes.get('/compras', CompraController.index);
 routes.get('/compras-municipio', CompraController.indexByMunicipio);
 routes.get('/compras/random', CompraController.random);
-routes.get('/compras/:compraId/municipios-proximos', 
-checkCompra,
-CompraController.indexMunicipiosProximos);
+routes.get('/compras/:compraId/municipios-proximos',
+	checkCompra,
+	CompraController.indexMunicipiosProximos);
 
 routes.post('/precos', PrecoController.store);
 

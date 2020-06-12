@@ -13,9 +13,6 @@ module.exports = {
         type: Sequelize.BOOLEAN,
         allowNull: false
       },
-      flag: {
-        type: Sequelize.STRING
-      },
       compra_id: {
         type: Sequelize.INTEGER,
         references: { model: 'compras', key: 'id' },

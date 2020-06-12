@@ -62,10 +62,10 @@ class ComentarioController {
 			where: {
 				avaliacao_id: {
 					[Op.in]: filteredAvaliacoes
-				}, 
+				},
 			},
 			order: [
-				['created_at', 'DESC'],
+				['created_at', 'ASC'],
 			],
 		});
 
