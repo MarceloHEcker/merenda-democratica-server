@@ -14,7 +14,7 @@ class CompraController {
 			limit: limit,
 			offset: (page - 1) * limit,
 			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico',
-			 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
+				'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
 		});
 
 		return res.json(orders);
@@ -44,7 +44,7 @@ class CompraController {
 			},
 			offset: (page - 1) * limit,
 			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto',
-          'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
+				'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
 		});
 
 		return res.json(orders);
@@ -55,7 +55,7 @@ class CompraController {
 
 		const order = await Compra.findOne({
 			where: {
-				id: 382
+				id: 6539
 			},
 			attributes: ['id', 'ano', 'uf', 'municipio', 'entidade', 'numero_dap', 'organico', 'produto', 'documento_despesa', 'unidade_medida', 'quantidade', 'valor_unitario', 'valor_total'],
 		});
@@ -85,7 +85,7 @@ class CompraController {
 
 		const municipioCompra = municipiosUF.data.filter(item => String(item.nome)
 			.toLowerCase() === String(order.municipio)
-			.toLowerCase())[0];
+				.toLowerCase())[0];
 
 		const microrregiaoId = municipioCompra ? municipioCompra.microrregiao.id : -1;
 
@@ -94,8 +94,8 @@ class CompraController {
 
 		const municipiosArray =
 			municipiosMicrorregiao.data.map(item => String(item.nome)
-			.toUpperCase())
-			.filter(item => item !== order.municipio);
+				.toUpperCase())
+				.filter(item => item !== order.municipio);
 
 		const compras = await Compra.findAll({
 			where: {

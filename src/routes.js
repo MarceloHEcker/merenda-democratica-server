@@ -50,7 +50,7 @@ routes.get('/compras/:compraId/municipios-proximos',
 routes.post('/precos', PrecoController.store);
 
 routes.get('/previsoes', PrevisaoController.index);
-routes.get('/previsoes/compra', PrevisaoController.get);
+routes.post('/previsoes/compra', PrevisaoController.get);
 routes.get('/previsoes/executar', PrevisaoController.executePreview);
 
 routes.post('/files', upload.single('file'), ArquivoController.store);
